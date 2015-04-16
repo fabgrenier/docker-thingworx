@@ -22,7 +22,7 @@ I add a tomcat-users.xml with a admin/admin user to check Tomcat manager during 
 HowTo
 -----
 
- * ou need to add the Thingworx.war file in the build directory.
+ * You need to add the Thingworx.war file in the build directory.
  * docker build -t . thingworx
  * docker run -d -p 8080:8080 thingworx
  * connect to http://localhost:8080
