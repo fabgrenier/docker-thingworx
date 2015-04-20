@@ -28,4 +28,4 @@ HowTo
  * connect to http://localhost:8080
  * default account is Administrator/admin
 
-You should use Docker shared volumes to get the TW storage directory (/ThingworxStorage) outside of the container.
+You should use Docker shared volumes to get the TW storage directories (/ThingworxStorage and ThingworxBackupStorage) outside of the container. Example : docker run -d -p 8080:8080 -v $HOME/TW/ThingworxStorage:/ThingworxStorage -v $HOME/TW/ThingworxBackupStorage:/ThingworxBackupStorage thingworx
