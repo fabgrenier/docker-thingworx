@@ -1,6 +1,8 @@
 # docker-thingworx
 A dockerfile to dockerize Thingworx plateform
 
+Tested with TW v5 and v6.
+
 Why ?
 -----
 
